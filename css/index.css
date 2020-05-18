@@ -1,0 +1,83 @@
+/*
+Estilo da página para edição da index.html
+*/
+/*
+Direitos reservados a Allyson de Oliveira Brandão
+*/
+
+/*
+Estrutura da página
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+	font-family: 'Lato', sans-serif;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+header{
+	position: fixed;
+	top: 0;	
+	min-height: 75px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #eee; 
+}
+/*
+Classes
+*/
+.container{
+	max-width: 100%;
+	margin: 0 auto;
+}
+.btn{
+	padding: 0 40px;
+	height: 40px;
+	font-size: 1em;
+	font-weight: 900;
+	text-transform: uppercase;
+	border: 3px black solid;
+	border-radius: 3px;
+	background: transparent;
+	cursor: pointer;
+	align-items: center;
+}
+.grid{
+	display: flex;
+}
+.logo{
+	width: ;
+}
+/*
+ID's
+*/
+
+
+
+/*
+Media Query
+*/
+@media(max-width: 600px){
+	header{
+		flex-wrap:wrap; 
+	}
+}
+
+@media(max-width: 650px){
+	.logo{
+		margin-top: 15px;
+		width: 100%;
+		position: relative;
+	}
+}
